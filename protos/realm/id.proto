@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package realm;
+
+// ID is the identifier of a realm.
+message ID {
+  string value = 1;
+}

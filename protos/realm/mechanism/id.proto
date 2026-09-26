@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package realm.mechanism;
+
+// ID is the identifier of a mechanism configured in a realm.
+message ID {
+  string value = 1;
+}
